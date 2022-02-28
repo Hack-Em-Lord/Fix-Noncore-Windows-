@@ -47,9 +47,9 @@ echo:      Enter a menu option in the Keyboard [1,2,3,4,5]
 set /p ans=
 
 if %ans%==1 goto :1
-if %ans%==2 goto 
-if %ans%==3 goto 
-if %ans%==4 goto 
+if %ans%==2 goto :2
+if %ans%==3 goto :3
+if %ans%==4 goto :about
 if %ans%==5 exit
 
 :1
